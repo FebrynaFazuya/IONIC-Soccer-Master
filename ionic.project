@@ -1,0 +1,23 @@
+{
+  "name": "soccer",
+  "app_id": "com.intbizth.soccer",
+  "gulpStartupTasks": [
+    "sass",
+    "coffee",
+    "jade",
+    "trans",
+    "watch",
+    "index"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "12.41.296.5"
+    }
+  ]
+}
